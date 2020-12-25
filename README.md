@@ -8,7 +8,7 @@
 Обновиться:<br>
 rm -rf px</br>
 git clone https://github.com/pkgsearch/xaker ~/px/ <br>
-<pre><code class="no-buttons">&lt;rm -rf px</br>
+<pre>rm -rf px</br>
 git clone https://github.com/pkgsearch/xaker ~/px/ <br>&lt;/code&gt;</pre>
 Запуск из любой директории:
 bash ~/px/main.sh <br>
