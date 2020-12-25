@@ -17,7 +17,7 @@ elif xaker == "3":
 elif xaker == "4":
        os.system("python ~/px/core/packages/tgspam/menutg.py")
 elif xaker == "5":
-       os.system("python ~/px/core/packages/email/emmenu.py")
+       os.system("python ~/px/core/packages/email/menuem.py")
 else:
     print("Выбор не корректен :(\nПопробуйте еще раз!")
     exit(0)
