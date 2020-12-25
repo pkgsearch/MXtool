@@ -9,7 +9,7 @@
 git clone https://github.com/pkgsearch/xaker ~/px/ <br></pre>
 Запуск из любой директории:
 <pre>bash ~/px/main.sh <br></pre>
-Скачать:</br>
-<pre>pkg install git && pkg install python && git clone https://github.com/pkgsearch/xaker ~/px/ && pip install requests</br></pre>
+Скачать (linux/termux):</br>
+<pre>apt install git && apt install python && git clone https://github.com/pkgsearch/xaker ~/px/ && pip install requests</br></pre>
 Запуск из любой директории:</br>
 <pre>bash ~/px/main.sh <br></pre>
