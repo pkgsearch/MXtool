@@ -8,4 +8,4 @@ if xaker == "1":
     os.system("clear")
     os.system("python ~/px/core/tools/EMAIL.py")
 elif xaker == "2":
-       os.system("bash ~/px/core/packages/empak.sh")
+       os.system("bash ~/px/core/packages/email/empak.sh")
