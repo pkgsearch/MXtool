@@ -9,7 +9,7 @@
 rm -rf px</br>
 git clone https://github.com/pkgsearch/xaker ~/px/ <br>
 <pre>rm -rf px</br>
-git clone https://github.com/pkgsearch/xaker ~/px/ <br>&lt;/code&gt;</pre>
+git clone https://github.com/pkgsearch/xaker ~/px/ <br>&lt;</pre>
 Запуск из любой директории:
 bash ~/px/main.sh <br>
 Скачать:</br>
