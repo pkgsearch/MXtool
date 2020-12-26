@@ -6,7 +6,9 @@
 <li>Обновление xaker 3.0:</br></li>
 <li>Авто запуск </br></li>
 <li>Выкрашен текст </br></li>
-<li>Добавлены TGSPAM и. EMAIL BOMBER <br></li>
+<h6>Добавлены:</h6><br>
+ <li> TELEGRAM SPAM <br></li>
+<li>EMAIL BOMBER</li>
 </ul>
 <img src="https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png"></img>
 <h5>Установка:</h5>
