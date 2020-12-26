@@ -1,6 +1,13 @@
 # xaker
 <h6>Уважаемый пользователь! Скрипт лицензирован лицензией MIT. Она говорит что за все действия ответственность несёте вы, и при использование кода должны уведомить меня, и лицензировать той же лицензией.</h6>
 <img src="https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png"></img>
+<h6>Функционал:</h6>
+1. SMS bomber<br>
+2. Ddos <br>
+3. Tgspam <br>
+4. Phishing <br>
+5. Email bomber<br>
+<img src="https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png"></img>
 
 <ul>
 <li>Обновление xaker 3.0:</br></li>
