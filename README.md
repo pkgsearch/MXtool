@@ -30,3 +30,5 @@ git clone https://github.com/pkgsearch/xaker ~/px/ <br></pre>
 Запуск из любой директории:</br>
 <pre>bash ~/px/main.sh <br></pre>
 <img src="https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png"></img>
+<h4>Скрин:</h4>
+<img src="Screenshot_2020-12-26-23-31-30.jpg"></img>
