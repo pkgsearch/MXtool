@@ -22,17 +22,17 @@ sel = input(Fore.GREEN + """[1] Дудос
 Выберите параметр: """)
 if sel == "1":
     os.system("clear")
-    os.system("python ~/px/core/tools/DDOS.py")
+    os.system("python ~/.xaker/core/DoS.py")
 elif sel == "2":
        os.system("clear") 
-       os.system("python ~/px/core/tools/BOMBER.py")
+       os.system("python ~/.xaker/core/bomber.py")
 elif sel == "3":
        os.system("clear")
-       os.system("python ~/px/core/tools/PKGFISH.py")
+       os.system("python ~/.xaker/core/pkgfish.py")
 elif sel == "4":
-       os.system("python ~/px/core/packages/tgspam/menutg.py")
+       os.system("python ~/.xaker/core/tgspam.py")
 elif sel == "5":
-       os.system("python ~/px/core/packages/email/menuem.py")
+       os.system("python ~/.xaker/core/email.py")
 else:
     print("Выбор не корректен :(\nПопробуйте еще раз!")
     exit(0)
