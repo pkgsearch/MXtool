@@ -14,7 +14,7 @@ print(Fore.BLUE + """
  █▒ ▒█  ▒██▒█  █  ▒█   ███▒   █
 made by @pkgsearch""")
 
-sel = input(Fore.GREEN + """[1]Дудос
+sel = input(Fore.GREEN + """[1] Дудос
 [2] Бомбер
 [3] Фишинг любого сайта
 [4] Спамер тг
