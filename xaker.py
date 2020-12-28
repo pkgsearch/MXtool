@@ -1,24 +1,24 @@
+from colorama import Fore
 import os
-xaker = input("""\033[32m[1]Дудос
-[2]бомбер
+sel = input(Fore.GREEN + """[1]Дудос
+[2] Бомбер
 [3] Фишинг любого сайта
 [4] Спамер тг
 [5] Емаил бомбер
 Выберите параметр: """)
-if xaker == "1":
+if sel == "1":
     os.system("clear")
     os.system("python ~/px/core/tools/DDOS.py")
-elif xaker == "2":
+elif sel == "2":
        os.system("clear") 
        os.system("python ~/px/core/tools/BOMBER.py")
-elif xaker == "3":
+elif sel == "3":
        os.system("clear")
        os.system("python ~/px/core/tools/PKGFISH.py")
-elif xaker == "4":
+elif sel == "4":
        os.system("python ~/px/core/packages/tgspam/menutg.py")
-elif xaker == "5":
+elif sel == "5":
        os.system("python ~/px/core/packages/email/menuem.py")
 else:
     print("Выбор не корректен :(\nПопробуйте еще раз!")
     exit(0)
-    
