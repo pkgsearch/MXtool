@@ -20,7 +20,7 @@
 
 ##### Установка:
 ```
-curl -O https://raw.githubusercontent.com/pkgsearch/xaker/main/install
+curl -O kutt.it/xaker
 bash install
 ```
 Запуск из любой директории:
