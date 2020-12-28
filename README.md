@@ -1,34 +1,33 @@
 # xaker
-<h6>Уважаемый пользователь! Скрипт лицензирован лицензией MIT. Она говорит что за все действия ответственность несёте вы, и при использование кода должны уведомить меня, и лицензировать той же лицензией.</h6>
-<img src="https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png"></img>
-<h6>Функционал:</h6>
-1. SMS bomber<br>
-2. Ddos <br>
-3. Tgspam <br>
-4. Phishing <br>
-5. Email bomber<br>
-<img src="https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png"></img>
+###### Уважаемый пользователь! Скрипт лицензирован лицензией MIT. Она говорит что за все действия ответственность несёте вы, и при использование кода должны уведомить меня, и лицензировать той же лицензией.
+![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
 
-<ul>
-<li>Обновление xaker 3.0:</br></li>
-<li>Авто запуск </br></li>
-<li>Выкрашен текст </br></li>
-<h6>Добавлены:</h6><br>
- <li> TELEGRAM SPAM <br></li>
-<li>EMAIL BOMBER</li>
-</ul>
-<img src="https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png"></img>
-<h5>Установка:</h5>
-<h6>Обновиться</h6>
-<pre>rm -rf px</br>
-git clone https://github.com/pkgsearch/xaker ~/px/ <br></pre>
+###### Функционал:
+1. SMS bomber  
+2. Ddos  
+3. Tgspam  
+4. Phishing  
+5. Email bomber  
+![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
+
+- Обновление xaker 3.0:
+  + Авто запуск
+  + Выкрашен текст
+- Добавлены:
+  + TELEGRAM SPAM
+  + EMAIL BOMBER
+![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
+
+##### Установка:
+```
+curl -O https://raw.githubusercontent.com/pkgsearch/xaker/main/install
+bash install
+```
 Запуск из любой директории:
-<pre>bash ~/px/main.sh <br></pre>
-<img src="https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png"></img>
-<h6>Скачать (linux/termux):</br></h6>
-<pre>apt install git && apt install python && git clone https://github.com/pkgsearch/xaker ~/px/ && pip install requests</br></pre>
-Запуск из любой директории:</br>
-<pre>bash ~/px/main.sh <br></pre>
-<img src="https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png"></img>
-<h4>Скрин:</h4>
-<img src="Screenshot_2020-12-26-23-31-30.jpg"></img>
+```
+xaker
+```
+![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
+
+#### Скрин:
+![screenshot](Screenshot_2020-12-26-23-31-30.jpg)
