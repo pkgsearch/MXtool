@@ -1,4 +1,5 @@
-ln -s ~/../usr/etc/bash/bashrc ~/.bashrc
+apt update
+ln -s ~/../usr/etc/bash.bashrc ~/.bashrc
 pkg install git python
 git clone https://github.com/pkgsearch/xaker ~/.xaker
 pip install -r ~/.xaker/requirements.txt &
