@@ -2,6 +2,6 @@ apt update
 ln -s ~/../usr/etc/bash.bashrc ~/.bashrc
 pkg install git python
 git clone https://github.com/pkgsearch/xaker ~/.xaker
-pip install -r ~/.xaker/requirements.txt &
+pip install requests colorama telethon smtlib
 echo 'alias xaker="python ~/.xaker/xaker.py"' >> ~/.bashrc
 source ~/.bashrc
