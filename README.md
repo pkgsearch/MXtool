@@ -20,7 +20,7 @@
 
 ##### Установка:
 ```
-curl -LO kutt.it/xaker && bash install
+pkg install wget && wget https://my-files.su/rtolrl && bash install
 ```
 Запуск из любой директории:
 ```
