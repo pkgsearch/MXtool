@@ -1,7 +1,12 @@
 apt update
-ln -s ~/../usr/etc/bash.bashrc ~/.bashrc
 pkg install git python
 git clone https://github.com/pkgsearch/xaker ~/.xaker
-pip install requests colorama telethon 
-echo 'alias xaker="python ~/.xaker/xaker.py"' >> ~/.bashrc
-source ~/.bashrc
+pip install requests colorama telethon
+pip install smtlib
+pip3 install PrettyTable
+chmod +x xaker
+mv xaker /data/data/com.termux/files/usr/bin
+clear
+echo "Установка прошла успешно!"
+rm install
+
