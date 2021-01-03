@@ -1,6 +1,6 @@
 apt update
 pkg install git python
-git clone https://github.com/pkgsearch/xaker ~/.xaker
+git clone https://github.com/pkgsearch/xaker ~/px
 pip install --upgrade pip
 pip install requests colorama telethon
 pip install smtlib
@@ -9,5 +9,5 @@ chmod +x xaker
 mv xaker /data/data/com.termux/files/usr/bin
 clear
 echo "Установка прошла успешно!"
-rm install
+rm txaker
 
