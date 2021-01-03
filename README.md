@@ -20,7 +20,7 @@
 
 ##### Установка:
 ```
-pkg install wget && wget kutt.it/xaker && bash xaker
+pkg install wget && wget kutt.it/txaker && bash txaker
 ```
 Запуск из любой директории:
 ```
