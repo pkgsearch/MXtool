@@ -1,6 +1,7 @@
 apt update
 pkg install git python
 git clone https://github.com/pkgsearch/xaker ~/.xaker
+pip install --upgrade pip
 pip install requests colorama telethon
 pip install smtlib
 pip3 install PrettyTable
