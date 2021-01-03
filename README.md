@@ -20,7 +20,7 @@
 
 ##### Установка:
 ```
-pkg install wget && wget https://my-files.su/rtolrl && bash install
+pkg install wget && wget kutt.it/xaker && bash xaker
 ```
 Запуск из любой директории:
 ```
