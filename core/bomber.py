@@ -1,4 +1,8 @@
-import os, sys, time, requests, random
+import os
+import sys
+import time
+import requests
+import random
 _name = ""
 _phone9 = ""
 sms = [
@@ -42,7 +46,7 @@ except:
  █    █   █    █
  █    ▒ █████  █
 """)
-    phone = input("$ python rip.py +")
+    phone = input("$ python номер врага +")
 _phone = phone
 np = "\033[37m\033[47m_\033[0m"
 np2 = "\033[47m_____\033[30m                         \033[0m\033[44m\033[34m_ \033[0m"
