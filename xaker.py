@@ -1,6 +1,6 @@
 from colorama import Fore
 import os
-
+os.system("clear")
 print(Fore.BLUE + """
                █
                █
