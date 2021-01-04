@@ -7,13 +7,13 @@ xaker = input("""\033[32m[1]Дудос
 Выберите параметр: """)
 if xaker == "1":
     os.system("clear")
-    os.system("python /core/DDOS.py")
+    os.system("python core/DDOS.py")
 elif xaker == "2":
        os.system("clear") 
-       os.system("python /core/BOMBER.py")
+       os.system("python core/BOMBER.py")
 elif xaker == "3":
        os.system("clear")
-       os.system("python /core/PKGFISH.py")
+       os.system("python core/PKGFISH.py")
 elif xaker == "4":
        os.system("python core/TGSPAM.py")
 elif xaker == "5":
