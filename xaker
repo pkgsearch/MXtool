@@ -1,3 +1,3 @@
 cd xaker
-python main.sh
+bash main.sh
 
