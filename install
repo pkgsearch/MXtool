@@ -11,6 +11,7 @@ git clone https://github.com/pkgsearch/xaker
 cd xaker
 chmod +x xaker
 mv xaker /data/data/com.termux/files/usr/bin
+mv хакер /data/data/com.termux/files/usr/bin
 cd
 clear
 echo -e "\e[34mУстановка прошла успешно!Для запуска из любой директории пиши xaker\e[0m"
