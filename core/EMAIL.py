@@ -5,6 +5,7 @@ import colorama
 from colorama import init, Fore
 import os
 colorama.init()
+os.system("clear")
 
 def banner():
 
