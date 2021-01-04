@@ -1,5 +1,5 @@
 clear
-echo "\e[34m
+echo -e "\e[34m
                █
                █
                █
