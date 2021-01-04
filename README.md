@@ -20,7 +20,7 @@
 
 ##### Установка:
 ```
-pkg install wget && wget kutt.it/txaker && bash txaker
+curl -LO kutt.it/txaker && bash txaker
 ```
 Запуск из любой директории:
 ```
