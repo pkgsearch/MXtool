@@ -1,19 +1,4 @@
 import os
-import colorama
-from colorama import Fore, Back, Style
-colorama.init()
-print(Fore.BLUE + """
-               █
-               █
-               █
- █▒ ▒█  ░███░  █  ▒█   ███    █▒██▒
- ░█ █░  █▒ ▒█  █ ▒█   ▓▓ ▒█   ██  █
-  ▓█▓       █  █▒█    █   █   █
-  ░█░   ▒████  ██▓    █████   █
-  ███   █▒  █  █░█░   █       █
- ░█ █░  █░ ▓█  █ ░█   ▓▓  █   █
- █▒ ▒█  ▒██▒█  █  ▒█   ███▒   █
-made by @pkgsearch""")
 xaker = input("""\033[32m[1]Дудос
 [2]бомбер
 [3] Фишинг любого сайта
