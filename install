@@ -1,6 +1,7 @@
 cd
 rm -rf xaker
 rm /data/data/com.termux/files/usr/bin/xaker
+rm /data/data/com.termux/files/usr/bin/хакер
 apt update
 pkg install git python
 pip install --upgrade pip
