@@ -1,5 +1,5 @@
 clear
-echo -e "\e[34m
+echo "\e[34m
                █
                █
                █
@@ -11,4 +11,4 @@ echo -e "\e[34m
  ░█ █░  █░ ▓█  █ ░█   ▓▓  █   █
  █▒ ▒█  ▒██▒█  █  ▒█   ███▒   █
 made by @pkgsearch \e[0m"
-python ~/px/xaker.py
+python xaker.py
