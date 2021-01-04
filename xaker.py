@@ -1,5 +1,8 @@
 import os
-print("""
+import colorama
+from colorama import Fore, Back, Style
+colorama.init()
+print(Fore.BLUE + """
                █
                █
                █
