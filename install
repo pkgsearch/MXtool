@@ -1,7 +1,6 @@
 cd
 rm -rf xaker
 rm /data/data/com.termux/files/usr/bin/xaker
-rm /data/data/com.termux/files/usr/bin/хакер
 apt update
 pkg install git python
 pip install --upgrade pip
@@ -15,6 +14,6 @@ mv xaker /data/data/com.termux/files/usr/bin
 mv хакер /data/data/com.termux/files/usr/bin
 cd
 clear
-echo "Установка прошла успешно! Для запуска из любой директории пиши xaker или хакер"
+echo "Установка прошла успешно! Для запуска из любой директории пиши xaker"
 rm txaker
 
