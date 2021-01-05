@@ -19,5 +19,7 @@ elif xaker == "4":
 elif xaker == "5":
        os.system("python core/EMAIL.py")
 else:
-    print("Выбор не корректен :(\nПопробуйте еще раз!")
+       os.system("xaker")     
+print("Выбор не корректен :(\nПопробуйте еще раз!")
     exit(0)
+
