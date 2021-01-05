@@ -23,6 +23,4 @@ elif xaker == "6":
        os.system("python core/VK.py")
 else:
        os.system("xaker")     
-print("Выбор не корректен :(\nПопробуйте еще раз!")
-exit(0)
 
