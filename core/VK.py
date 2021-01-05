@@ -15,10 +15,6 @@ print("""
    ██   █   █░        █   ▒█ ▓▒  ▒▓ █  ░██
    ██   █   ▒█        █████░ █░  ░█ █   ██
  made by pkgsearch""")
-    print("""                                  
- Забанить токен                                                      
-    """)
- 
             huy = input("Вводи токен") 
             token = vk_api.VkApi(token = tok) 
             vk = token.get_api()
