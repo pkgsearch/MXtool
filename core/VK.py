@@ -4,7 +4,7 @@ import os
 import time
 from colorama import Fore, Back, Style 
 os.system("clear")
-print('''
+print("""
 █░  ░█ █   ▒▓        █████░   ██   ██   █
  ▓▒  ▒▓ █  ▒█         █   ▒█   ██   ██░  █
  ▒█  █▒ █ ▒█          █    █  ▒██▒  █▒▓  █
@@ -15,7 +15,7 @@ print('''
    ██   █   █░        █   ▒█ ▓▒  ▒▓ █  ░██
    ██   █   ▒█        █████░ █░  ░█ █   ██
  made by pkgsearch
-''')
+""")
     print("""                                  
  Забанить токен                                                      
     """)
