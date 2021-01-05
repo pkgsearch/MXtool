@@ -4,6 +4,7 @@ xaker = input("""\033[32m[1]Дудос
 [3]Фишинг любого сайта
 [4]Спамер тг
 [5]Емаил спамер
+[6] VK-BAN по токену
 Выберите параметр: """)
 if xaker == "1":
     os.system("clear")
@@ -18,6 +19,8 @@ elif xaker == "4":
        os.system("python core/TGSPAM.py")
 elif xaker == "5":
        os.system("python core/EMAIL.py")
+elif xaker == "6":
+       os.system("python core/VK.py")
 else:
        os.system("xaker")     
 print("Выбор не корректен :(\nПопробуйте еще раз!")
