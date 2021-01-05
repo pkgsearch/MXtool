@@ -16,7 +16,7 @@ print("""
    ██   █   ▒█        █████░ █░  ░█ █   ██
  made by pkgsearch
 """)
-huy = input("Вводи токен") 
+huy = input("Ввeди токен:") 
 token = vk_api.VkApi(token = tok) 
 vk = token.get_api()
 vk.wall.post(message='Аккаунт  взломан! Ответственность взял анонимный хакер')
