@@ -3,7 +3,7 @@ import vk_api
 import os
 import time
 from colorama import Fore, Back, Style 
-    os.system("clear")
+os.system("clear")
 print('''
 █░  ░█ █   ▒▓        █████░   ██   ██   █
  ▓▒  ▒▓ █  ▒█         █   ▒█   ██   ██░  █
