@@ -40,8 +40,8 @@ xaker
 ![screenshot](Screenshot_2020-12-26-23-31-30.jpg)
 ![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
 
-###Веб версия:
--Веб версия:https://repl.it/@pkgsearch/xaker#main.sh
+### Веб версия:
+- Веб версия:https://repl.it/@pkgsearch/xaker#main.sh
 + Заходим по ссылке
 + Нажимаем на "console"
 + Пишем ```bash main.sh```
