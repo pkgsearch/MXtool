@@ -24,13 +24,23 @@
 ![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
 
 ##### Установка:
+Termux:
 ```
 curl -LO kutt.it/txaker && bash txaker
 ```
+```
+curl -LO kutt.it/ixaker && bash txaker
+```
+
 Запуск из любой директории:
 ```
 xaker
 ```
+Если не робит (возможно на iPhone)
+```
+cd xaker && bash main.sh
+```
+
 
 
 
