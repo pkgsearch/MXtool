@@ -44,4 +44,4 @@ xaker
 - Веб версия: https://kutt.it/xaker
 + Заходим по ссылке
 + Нажимаем на "console"
-+ Пишем ```bash main.sh```
++ Пишем ```bash pip && bash main.sh```
