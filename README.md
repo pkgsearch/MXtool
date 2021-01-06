@@ -42,6 +42,6 @@ xaker
 
 ###Веб версия:
 -Веб версия:https://repl.it/@pkgsearch/xaker#main.sh
-+Заходим по ссылке
-+Нажимаем на "console"
-+Пишем ‘‘‘bash main.sh‘‘‘
++ Заходим по ссылке
++ Нажимаем на "console"
++ Пишем ```bash main.sh```
