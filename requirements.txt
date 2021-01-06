@@ -1,3 +1,4 @@
+--upgrade pip
 requests
 colorama
 telethon
