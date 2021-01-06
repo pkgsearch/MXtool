@@ -41,7 +41,7 @@ xaker
 ![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
 
 ### Веб версия:
-- Веб версия: kutt.it/xaker
+- Веб версия: https://kutt.it/xaker
 + Заходим по ссылке
 + Нажимаем на "console"
 + Пишем ```bash main.sh```
