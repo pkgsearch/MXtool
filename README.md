@@ -28,8 +28,9 @@ Termux:
 ```
 curl -LO kutt.it/txaker && bash txaker
 ```
+Ish(iPhone):
 ```
-curl -LO kutt.it/ixaker && bash txaker
+curl -LO kutt.it/ixaker && bash ixaker
 ```
 
 Запуск из любой директории:
