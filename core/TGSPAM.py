@@ -39,9 +39,9 @@ a = input(Fore.YELLOW + ' Выберите способ флуда: ')
 if a == "1":
     print(" ")
     print(Fore.BLUE + " ")
-    idp = input("Введите id/nick пизды: ")
-    mes = input("Текст хуя ")
-    print(Fore.RED + '   Секс начат! ')
+    idp = input("Введите id/nick человека: ")
+    mes = input("Текст сообщения ")
+    print(Fore.RED + 'Спам начат! ')
     while True:
 
         client.send_message(idp, mes)
