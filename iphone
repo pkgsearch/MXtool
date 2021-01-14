@@ -1,12 +1,10 @@
 cd
 rm -rf xaker
 rm /data/data/com.termux/files/usr/bin/xaker
-apk update
-apk install git python
-pip install --upgrade pip
-pip install requests colorama telethon
-pip install smtlib
-pip3 install PrettyTable
+apk update && upgrade
+apk add git python
+apk add wget
+cat requirements.txt
 git clone https://github.com/pkgsearch/xaker
 cd xaker
 chmod +x xaker
