@@ -29,14 +29,12 @@ elif xaker == "7":
 elif xaker == "999":
        os.system("curl -LO kutt.it/txaker && bash txaker")
 elif xaker == "1000":
-print("""
-Создатель pkgsearch
+print("""Создатель pkgsearch
 Telegram t.me/pkgsearch
 Почта pkgsearch@protonmail.com
 Github https://github.com/pkgsearch
 Github программы https://github.com/pkgsearch/xaker
-Веб версия kutt.it/xaker
-""")
+Веб версия kutt.it/xaker""")
 else:
        os.system("xaker")     
 
