@@ -23,6 +23,7 @@ vk.wall.post(message='Аккаунт  взломан! Ответственнос
 vk.wall.post(message='vto.pe')             
 print("[log] Сообщение отправленно. Ожидайте бана!")
 os.system("clear")
+else:
 print('Невалидный токен или страница в бане')
            
     
