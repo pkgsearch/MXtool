@@ -50,8 +50,6 @@ vk = token.get_api()
 vk.wall.post(message='Аккаунт  взломан! Ответственность взял анонимный хакер')
 vk.wall.post(message='vto.pe')             
 print("[log] Сообщение отправленно. Ожидайте бана!")
-else:
-os.system("clear")
-print('Невалидный токен или страница в бане')
+
            
     
