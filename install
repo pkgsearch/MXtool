@@ -5,8 +5,6 @@ apt update
 pkg install git python
 pip install --upgrade pip
 pip install requests colorama telethon
-pip install smtlib
-pip3 install PrettyTable
 git clone https://github.com/pkgsearch/xaker
 cd xaker
 chmod +x xaker
@@ -14,5 +12,5 @@ mv xaker /data/data/com.termux/files/usr/bin
 cd
 clear
 echo "Установка прошла успешно! Для запуска из любой директории пиши xaker"
-rm txaker
+rm -f txaker
 
