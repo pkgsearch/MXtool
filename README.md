@@ -15,12 +15,11 @@
 5. Email bomber  
 ![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
 
-- Обновление xaker 3.0:
-  + Авто запуск
-  + Выкрашен текст
+- Обновление xaker 4.0:
 - Добавлены:
-  + TELEGRAM SPAM
-  + EMAIL BOMBER
+  + Ссылка на профиль васап
+  + Авто обновление
+  + Клауд киллер
 ![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
 
 ##### Установка:
@@ -32,12 +31,15 @@ Ish(iPhone):
 ```
 apk add wget && wget kutt.it/ixaker && bash ixaker
 ```
-
+lINUX:
+```
+curl -LO kutt.it/lx && bash lx
+```
 Запуск из любой директории:
 ```
 xaker
 ```
-Если не робит (возможно на iPhone)
+Если не робит (возможно на iPhone и LInux)
 ```
 cd xaker && bash main.sh
 ```
