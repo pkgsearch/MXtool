@@ -1,0 +1,14 @@
+cd
+apt update
+apt upgrade
+apt install pip
+apt install python3-pip
+pip install requests colorama telethon
+git clone https://github.com/pkgsearch/xaker
+cd xaker
+chmod +x xaker
+mv xaker /usr/bin
+cd
+clear
+echo "Установка прошла успешно! Для запуска из любой директории пиши xaker"
+rm -f txaker
