@@ -20,16 +20,7 @@
   + Ссылка на профиль васап
   + Авто обновление
   + Клауд киллер
-![separator](https://user-images.githubusercontent.com/61265099/1.jpg)
-
-![separator](https://user-images.githubusercontent.com/61265099/2.jpg)
-![separator](https://user-images.githubusercontent.com/61265099/3.jpg)
-![separator](https://user-images.githubusercontent.com/61265099/4.jpg)
-![separator](https://user-images.githubusercontent.com/61265099/5.jpg)
-![separator](https://user-images.githubusercontent.com/61265099/6.jpg)
-![separator](https://user-images.githubusercontent.com/61265099/7.jpg)
-![separator](https://user-images.githubusercontent.com/61265099/8.jpg)
-![separator](https://user-images.githubusercontent.com/61265099/9.jpg)
+![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
 ##### Установка:
 Termux:
 ```
@@ -57,15 +48,22 @@ cd xaker && bash main.sh
 
 ![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
 
-#### Скрин:
-![screenshot](Screenshot_2020-12-26-23-31-30.jpg)
+#### Скрины:
+![scrin](1.jpg)
+![scrin](2.jpg)
+![scrin](3.jpg)
+![scrin](4.jpg)
+![scrin](5.jpg)
+![scrin](6.jpg)
+![scrin](7.jpg)
+![scrin](8.jpg)
+![scrin](9.jpg)
 ![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
 
 ### Веб версия:
 - Веб версия: https://kutt.it/xaker
 + Заходим по ссылке
-+ Нажимаем на "console"
-+ Пишем ```bash pip && bash main.sh```
++ Нажимаем на "<|" и переходим в "console"
 ### Мусор:
 Смс бомбер
 Бомбер
