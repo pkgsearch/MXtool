@@ -33,7 +33,7 @@ elif xaker == "7":
        os.system("python core/W.py")
 elif xaker == "8":
        os.system("clear")
-       os.system("python core/iper.py")  
+       os.system("python core/IP.py")  
 elif xaker == "999":
        os.system("curl -LO kutt.it/txaker && bash txaker")
 elif xaker == "1000":
