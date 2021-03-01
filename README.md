@@ -20,8 +20,16 @@
   + Ссылка на профиль васап
   + Авто обновление
   + Клауд киллер
-![separator](https://user-images.githubusercontent.com/61265099/78818286-19743180-79dd-11ea-84c5-f629f891dd4b.png)
+![separator](https://user-images.githubusercontent.com/61265099/1.jpg)
 
+![separator](https://user-images.githubusercontent.com/61265099/2.jpg)
+![separator](https://user-images.githubusercontent.com/61265099/3.jpg)
+![separator](https://user-images.githubusercontent.com/61265099/4.jpg)
+![separator](https://user-images.githubusercontent.com/61265099/5.jpg)
+![separator](https://user-images.githubusercontent.com/61265099/6.jpg)
+![separator](https://user-images.githubusercontent.com/61265099/7.jpg)
+![separator](https://user-images.githubusercontent.com/61265099/8.jpg)
+![separator](https://user-images.githubusercontent.com/61265099/9.jpg)
 ##### Установка:
 Termux:
 ```
