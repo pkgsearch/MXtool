@@ -20,7 +20,7 @@ sms = [
 ]
 newk = 0
 for q in range(15):
-    print(sms[newk])
+    print("\033[4m\033[32m\033[44m{}\033[0m".format(sms[newk])
     newk +=1
     if newk == 4:
         newk = 0
