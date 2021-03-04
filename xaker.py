@@ -37,7 +37,8 @@ elif xaker == "8":
        os.system("python core/IP.py")
 elif xaker == "9":
        os.system("clear")
-       os.system("bash core/knopki.sh")
+       os.system("cd core")
+       os.system("bash knopki.sh")
 elif xaker == "999":
        os.system("curl -LO kutt.it/txaker && bash txaker")
 elif xaker == "1000":
