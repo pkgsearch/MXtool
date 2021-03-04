@@ -37,9 +37,8 @@ elif xaker == "8":
        os.system("python core/IP.py")
 elif xaker == "9":
        os.system("clear")
-       os.system("cd core")
-       os.system("mv termux.properties ~/.termux/")
-elif xaker == "999":
+       os.system ("bash knopki")
+       elif xaker == "999":
        os.system("curl -LO kutt.it/txaker && bash txaker")
 elif xaker == "1000":
        os.system("clear")
