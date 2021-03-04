@@ -1,0 +1,2 @@
+cd core
+mv termux.properties ~/.termux/
