@@ -1,1 +1,0 @@
-mv termux.properties ~/.termux/
