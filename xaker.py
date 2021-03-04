@@ -38,7 +38,7 @@ elif xaker == "8":
 elif xaker == "9":
        os.system("clear")
        os.system ("bash knopki")
-       elif xaker == "999":
+elif xaker == "999":
        os.system("curl -LO kutt.it/txaker && bash txaker")
 elif xaker == "1000":
        os.system("clear")
