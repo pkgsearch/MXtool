@@ -12,9 +12,9 @@ os=input("""\033[35mКакая ваша os?
 [1]Android
 [2]Linux:""")
 if os == "1":
-os.system("python ALIAS.py")
-elif is == "2":
-os.system("python ALIASL.py")
+    os.system("python ALIAS.py")
+elif os == "2":
+    os.system("python ALIASL.py")
 else:
 os.system("python main.py")
 
