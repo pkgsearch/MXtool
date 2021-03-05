@@ -16,5 +16,5 @@ if os == "1":
 elif os == "2":
     os.system("python ALIASL.py")
 else:
-os.system("python main.py")
+    os.system("python main.py")
 
