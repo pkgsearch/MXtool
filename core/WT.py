@@ -23,5 +23,5 @@ os.system(g)
 n = input("Сайт находится в директории /xaker/core/"+site+" Если у вас termux введите y:")
 if n == "y":
 	os.system(t)
-print("Сайт перемещён")
+print("Сайт перемещён в память смартфона.")
 
