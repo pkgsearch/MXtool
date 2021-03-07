@@ -44,7 +44,7 @@ elif xaker == "10":
        os.system ("python core/alias/main.py")
 elif xaker == "11":
        os.system("clear")
-       os.system ("python core/W.py")
+       os.system ("python core/WT.py")
 elif xaker == "999":
        os.system("curl -LO kutt.it/txaker && bash txaker")
 elif xaker == "1000":
