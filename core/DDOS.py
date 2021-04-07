@@ -26,7 +26,7 @@ ips = input("\033[36mIP/Host нехорошего сайта (127.0.0.1; 127.0.0
 ips = (ips+",").split(",")
 ips.pop()
 
-ports = inputl("\033[36mСколько портов использовать? (80; 80,8080,443; all): ")
+ports = input("\033[36mСколько портов использовать? (80; 80,8080,443; all): ")
 if ports != "all":
      ports = (ports+",").split(",")
      ports.pop()
