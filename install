@@ -5,7 +5,7 @@ apt update
 pkg install git python
 pip install --upgrade pip
 pip install requests colorama telethon
-git clone https://github.com/pkgsearch/xaker
+git clone https://github.com/pkgsearch/MXtool
 cd xaker
 chmod +x xaker
 mv xaker /data/data/com.termux/files/usr/bin
