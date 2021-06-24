@@ -1,5 +1,6 @@
 cd
 rm -rf xaker
+rm -rf MXtool
 rm -f /data/data/com.termux/files/usr/bin/xaker
 apt update
 pkg install git python3
