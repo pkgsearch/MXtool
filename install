@@ -1,10 +1,10 @@
 cd
 rm -rf xaker
-rm /data/data/com.termux/files/usr/bin/xaker
+rm -f /data/data/com.termux/files/usr/bin/xaker
 apt update
-pkg install git python
-pip install --upgrade pip
-pip install requests colorama telethon
+pkg install git python3
+pip3 install --upgrade pip
+pip3 install requests colorama telethon
 git clone https://github.com/pkgsearch/MXtool
 cd MXtool
 chmod +x xaker
