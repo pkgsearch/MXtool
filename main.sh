@@ -43,4 +43,4 @@ echo -e "\e[34m
 ┃┃┃┃┃┃╰╯┃╰┫╰┫┣╯╭╮╰┫╭╮┃╭╮┫┃━┫┃
 ╰╯╰╯╰┻━━┻━┻━┻┻━╯╰━┻╯╰┻╯╰┻━━┻╯
 made by @pkgsearch \e[0m"
-python xaker.py
+python3 xaker.py
