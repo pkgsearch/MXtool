@@ -32,7 +32,7 @@ apk add wget && wget kutt.it/ixaker && bash ixaker
 ```
 lINUX:
 ```
-curl -LO kutt.it/lx && bash lx
+curl -LO kutt.it/lxmx && bash lxmx
 ```
 Запуск из любой директории:
 ```
