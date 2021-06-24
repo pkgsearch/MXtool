@@ -15,37 +15,37 @@ xaker = input("""\033[32m[1]Дудос
 Выберите параметр:""")
 if xaker == "1":
     os.system("clear")
-    os.system("python core/DDOS.py")
+    os.system("python3 core/DDOS.py")
 elif xaker == "2":
        os.system("clear") 
-       os.system("python core/BOMBER.py")
+       os.system("python3 core/BOMBER.py")
 elif xaker == "3":
        os.system("clear")
-       os.system("python core/PKGFISH.py")
+       os.system("python3 core/PKGFISH.py")
 elif xaker == "4":
        os.system("clear")
-       os.system("python core/TGSPAM.py")
+       os.system("python3 core/TGSPAM.py")
 elif xaker == "5":
        os.system("clear")
-       os.system("python core/EMAIL.py")
+       os.system("python3 core/EMAIL.py")
 elif xaker == "6":
        os.system("clear")
-       os.system("python core/VK.py")
+       os.system("python3 core/VK.py")
 elif xaker == "7":
        os.system("clear")
-       os.system("python core/W.py")
+       os.system("python3 core/W.py")
 elif xaker == "8":
        os.system("clear")
-       os.system("python core/cloud/IP.py")
+       os.system("python3 core/cloud/IP.py")
 elif xaker == "9":
        os.system("clear")
        os.system ("bash knopki")
 elif xaker == "10":
        os.system("clear")
-       os.system ("python core/alias/main.py")
+       os.system ("python3 core/alias/main.py")
 elif xaker == "11":
        os.system("clear")
-       os.system ("python core/WT.py")
+       os.system ("python3 core/WT.py")
 elif xaker == "999":
        os.system("curl -LO kutt.it/txaker && bash txaker")
 elif xaker == "1000":
