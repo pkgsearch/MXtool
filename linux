@@ -1,5 +1,5 @@
 cd
-rm -f MXtool
+rm -rf MXtool
 apt update
 apt upgrade
 apt install python3
