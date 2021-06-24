@@ -13,4 +13,4 @@ mv xaker /usr/bin
 cd
 clear
 echo "Установка прошла успешно! Для запуска из любой директории пиши xaker"
-rm -f lx
+rm -f lxmx
