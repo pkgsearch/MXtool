@@ -49,7 +49,7 @@ elif xaker == "11":
        os.system ("python3 core/WT.py")
 elif xaker == "12":
        os.system("clear")
-       os.system("python3 core/tgc/start.sh")
+       os.system("bash core/tgc/start.sh")
 elif xaker == "999":
        os.system("curl -LO kutt.it/txaker && bash txaker")
 elif xaker == "1000":
