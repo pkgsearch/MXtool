@@ -8,10 +8,10 @@ else:
 	s = 'False'
 c = """api_id = ' """ + api_id + """' 
 api_hash = ' """ + api_hash + """ 'send_user = """ + s
-f = open(config.py, 'w')
+f = open('config.py', 'w')
 f.write(c)
 f.close()
 os.system("rm -f start.sh")
-f = open(start.sh, 'w')
+f = open('start.sh', 'w')
 f.write("cd core && cd tgc && python main.py")
 f.close()
