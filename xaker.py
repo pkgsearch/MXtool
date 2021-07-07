@@ -10,6 +10,7 @@ xaker = input("""\033[32m[1]Дудос
 [9]Дополнительные кнопки для Termux
 [10]Настройка алиасов
 [11]Выкачать сайт
+[12]Узнать зарегестрирован ли номер в телеграмм
 [999]Обновление
 [1000]Разработчик
 Выберите параметр:""")
@@ -46,15 +47,22 @@ elif xaker == "10":
 elif xaker == "11":
        os.system("clear")
        os.system ("python3 core/WT.py")
+elif xaker == "12":
+       os.system("clear")
+       os.system("python3 core/tgc/start.sh")
 elif xaker == "999":
-       os.system("curl -LO kutt.it/txaker && bash txaker")
+       oss = int(input("[1]Android(termux)\n[2]Linux\nВыберите свою OS:")
+                 if oss = 1:
+                    os.system("curl -LO kutt.it/txaker && bash txaker")
+                 else:
+                    os.system("curl -LO kutt.it/lxmx && bash lxmx")
 elif xaker == "1000":
        os.system("clear")
        print("""Создатель pkgsearch
 Telegram t.me/pkgsearch
 Почта pkgsearch@protonmail.com
 Github https://github.com/pkgsearch
-Github программы https://github.com/pkgsearch/xaker
+Github программы https://github.com/pkgsearch/MXtool
 Веб версия kutt.it/xaker""")
 else:
        os.system("xaker")     
