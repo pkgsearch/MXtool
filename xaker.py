@@ -51,11 +51,7 @@ elif xaker == "12":
        os.system("clear")
        os.system("python3 core/tgc/start.sh")
 elif xaker == "999":
-       oss = int(input("[1]Android(termux)\n[2]Linux\nВыберите свою OS:")
-                 if oss == 1:
-                    os.system("curl -LO kutt.it/txaker && bash txaker")
-                 else:
-                    os.system("curl -LO kutt.it/lxmx && bash lxmx")
+       os.system("curl -LO kutt.it/txaker && bash txaker")
 elif xaker == "1000":
        os.system("clear")
        print("""Создатель pkgsearch
