@@ -11,7 +11,8 @@ xaker = input("""\033[32m[1]Дудос
 [10]Настройка алиасов
 [11]Выкачать сайт
 [12]Узнать зарегестрирован ли номер в телеграмм
-[999]Обновление
+[888]Обновление(Linux)
+[999]Обновление(Termux)
 [1000]Разработчик
 Выберите параметр:""")
 if xaker == "1":
@@ -50,6 +51,8 @@ elif xaker == "11":
 elif xaker == "12":
        os.system("clear")
        os.system("bash core/tgc/start.sh")
+elif xaker == "888":
+       os.system("curl -LO kutt.it/lxmx && bash lxmx")
 elif xaker == "999":
        os.system("curl -LO kutt.it/txaker && bash txaker")
 elif xaker == "1000":
