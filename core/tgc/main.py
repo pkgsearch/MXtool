@@ -33,7 +33,7 @@ def print_user(full_user):
 
 
 async def main():
-    number = input("Номер телефона: )
+    number = input("Номер телефона: ")
     async with TelegramClient(f'session', api_id, api_hash) as client:
         try:
             # Добавляем контакт
