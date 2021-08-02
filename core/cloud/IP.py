@@ -88,7 +88,7 @@ def checker(domain):
 
 try:
 
-    with open('xaker.txt','r')as wordlist:
+    with open('core/cloud/xaker.txt','r')as wordlist:
         for word in wordlist:
             word = word.strip()
 
