@@ -1,3 +1,5 @@
+pkg update
+pkg upgrade
 cd
 rm -rf xaker
 rm -rf MXtool
