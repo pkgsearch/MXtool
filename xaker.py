@@ -23,7 +23,7 @@ elif xaker == "2":
        os.system("python3 core/BOMBER.py")
 elif xaker == "3":
        os.system("clear")
-       os.system("python3 core/PKGFISH.py")
+       os.system("cd core && python3 PKGFISH.py")
 elif xaker == "4":
        os.system("clear")
        os.system("python3 core/TGSPAM.py")
