@@ -1,3 +1,6 @@
+cd
+mkdir .termux
+cd MXtool
 cd core
 mv termux.properties ~/.termux/
 termux-reload-settings
