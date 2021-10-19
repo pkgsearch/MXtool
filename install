@@ -1,19 +1,12 @@
-pkg update
-pkg upgrade
-cd
-rm -rf xaker
-rm -rf MXtool
-rm -f /data/data/com.termux/files/usr/bin/xaker
 apt update
-pkg install git python3
-pip3 install --upgrade pip
+apt upgrade
+apt install git python3
+cd
+rm -rf xaker MXtool /data/data/com.termux/files/usr/bin/xaker
 pip3 install requests colorama telethon
 git clone https://github.com/pkgsearch/MXtool
 cd MXtool
 chmod +x xaker
 mv xaker /data/data/com.termux/files/usr/bin
-cd
 clear
 echo "Установка прошла успешно! Для запуска из любой директории пиши xaker"
-rm -f txaker
-

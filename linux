@@ -1,16 +1,12 @@
-cd
-rm -rf MXtool
 apt update
 apt upgrade
-apt install python3
-apt install pip
-apt install python3-pip
+apt install python3 python3-pip
+cd
+rm -rf MXtool
 pip3 install requests colorama telethon
 git clone https://github.com/pkgsearch/MXtool.git
 cd MXtool
 chmod +x xaker
 mv xaker /usr/bin
-cd
 clear
 echo "Установка прошла успешно! Для запуска из любой директории пиши xaker"
-rm -f lxmx
