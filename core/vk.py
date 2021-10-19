@@ -47,7 +47,7 @@ print(
  made by pkgsearch
 """
 )
-token_raw = input("Ввeди токен:")
+token_raw = input("Ввeди токен: ")
 token = vk_api.VkApi(token=tok)
 vk = token.get_api()
 vk.wall.post(

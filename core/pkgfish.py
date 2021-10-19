@@ -110,7 +110,7 @@ if not os.path.isfile(INDEX_LOGIN):
         os.rename(os.path.join(DIRKR, html_files_in_web[0]), INDEX_LOGIN)
     else:
 
-        print("\033[1;33mглавная страница не определена :")
+        print("\033[1;33mглавная страница не определена")
         index_filename = input(
             "\033[1;39m\n file in \033[1;33m .tmp/\033[1;39m определите главную страницу:\033[1;33m"
         )
