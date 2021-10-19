@@ -1,4 +1,1 @@
-cd
-cd MXtool
-bash main.sh
-
+python3 ~/MXtool/xaker.py

