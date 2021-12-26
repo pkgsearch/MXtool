@@ -129,19 +129,19 @@ class Email_Bomber:
 
             os.system("cls")
             self.fromAddr = str(
-                input(Fore.LIGHTCYAN_EX + "| " + Fore.RESET + "Enter your email: ")
+                input(Fore.LIGHTCYAN_EX + "| " + Fore.RESET + "Введите вашу почту: ")
             )
             self.fromPwd = str(
-                input(Fore.LIGHTCYAN_EX + "| " + Fore.RESET + "Enter your password: ")
+                input(Fore.LIGHTCYAN_EX + "| " + Fore.RESET + "Введите ваш пароль: ")
             )
             self.subject = str(
-                input(Fore.LIGHTCYAN_EX + "| " + Fore.RESET + "Type your subject: ")
+                input(Fore.LIGHTCYAN_EX + "| " + Fore.RESET + "Введите тему: ")
             )
             self.message = str(
-                input(Fore.LIGHTCYAN_EX + "| " + Fore.RESET + "Type your message: ")
+                input(Fore.LIGHTCYAN_EX + "| " + Fore.RESET + "Введите сообщение: ")
             )
 
-            self.msg = """From: %s\nTo: %s\nSubject %s\n%s\n
+            self.msg = """От: %s\nКому: %s\nТема %s\n%s\n
             """ % (
                 self.fromAddr,
                 self.target,
