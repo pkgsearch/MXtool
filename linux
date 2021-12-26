@@ -4,8 +4,8 @@ apt install python3 python3-pip
 cd
 rm -rf MXtool
 pip3 install requests colorama telethon
-git clone https://github.com/pkgsearch/MXtool.git
-cd MXtool
+git clone https://github.com/pkgsearch/MXtool.git ~/.MXtool/
+cd .MXtool
 chmod +x xaker
 mv xaker /usr/bin
 clear
